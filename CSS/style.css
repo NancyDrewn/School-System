@@ -1,0 +1,67 @@
+/* *{
+    opacity: 0.9; 
+    background-color: #110909;
+    background-image:url('https://img.freepik.com/free-vector/students-with-computer-classroom-elements-white-background_1308-52052.jpg?uid=R158447988&ga=GA1.2.608982894.1717480101&semt=ais_hybrid') ;
+} */
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     background-color: #110909;
+    color: #fff; 
+   
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* display: flex; */
+}
+
+ .container h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #b6aeae;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab-link {
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.tab-link:hover {
+    background-color: #0b7dda;
+}
+
+.tab-content {
+    /* display: none; */
+    margin-top: 20px;
+}
+
+.tab-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tab-content table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
